@@ -47,10 +47,5 @@ header {
     align-self: flex-end;
 }
 
-#contact-btn, #portfolio-btn {
-    font-size: 12px;
-    margin: 3px 0 ;
-    margin-left: 30px;
-    
-    }
+
 }
