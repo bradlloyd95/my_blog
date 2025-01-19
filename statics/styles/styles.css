@@ -76,13 +76,13 @@ a img {
 
 #bottom-left-header h4 {
     font-weight: 700;
+    color: var(--eggshell);
 }
 #bottom-left-header h2 {
     font-size: 44px;
     font-weight: 900;
     font-weight: bold;
     color: var(--eggshell); 
-    /* -webkit-text-stroke: 1.5px var(--eggshell); Stroke size and color */
     text-align: center; /* Optional: center alignment */
     font-style: italic;
     
@@ -115,5 +115,4 @@ a img {
 #profile-pic {
     width: 150px;
 }
-
-/* For tablets (portrait and landscape) */
+}
