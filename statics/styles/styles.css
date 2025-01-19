@@ -10,6 +10,7 @@
     --prussian-blue-see: rgba(29, 45, 68, 0.95);
     --light-prussian-blue: rgb(40, 62, 93);
     --paynes-gray: #3e5c76ff;
+    --light-paynes-gray: rgba(62, 92, 118, 0.231);
     --silver-lake-blue: #748cabff;
     --eggshell: #f0ebd8ff;
     
@@ -88,24 +89,46 @@ a img {
     
 }
 
+
+
+#contact-btn {
+    background-color: var(--rich-black);
+    color: var(--eggshell);
+    border: 1px solid var(--eggshell);
+
+    padding: 7px 15px;
+    border-radius: 20px;
+    margin: 25px 12px;
+    font-weight: 600;
+}
+
+
+#portfolio-btn {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: var(--eggshell);
+    border: 1px solid var(--eggshell);
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin: 25px 0px;
+    font-weight: 600;
+}
 #profile-pic {
     width: 190px;
 }
-
 @media only screen and (max-width: 1023px) {
   /* Styles for small screens like smartphones */
 
+header {
+    height: 250px;
+}
 
-  #bottom-header {
-    flex-direction: column;
-  }
   #bottom-left-header h4 {
-    font-size: 15;
+    font-size: 16px;
     font-weight: 700;
 }
-#bottom-left-header h2 {    
+#bottom-left-header h2 {
     max-width: 100vw;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 900;
     font-weight: bold;
     color: var(--eggshell); 
@@ -114,5 +137,19 @@ a img {
 }
 #profile-pic {
     width: 150px;
+    align-self: flex-end;
 }
+
+#contact-btn, #portfolio-btn {
+    
+    margin: 0;
+    font-weight: 600;
+
+    font-size: 12px;
+    margin: 3px 0 ;
+}
+
+
+
+
 }
