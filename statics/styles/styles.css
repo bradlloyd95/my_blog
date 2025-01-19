@@ -14,12 +14,16 @@
     --silver-lake-blue: #748cabff;
     --eggshell: #f0ebd8ff;
 }
-
+body {
+    display: flex;
+    justify-content: center;
+}
 header {
     margin: 0;
     background: url('../images/background.avif') center/cover no-repeat fixed;
     width: 100vw;
-    height: 300px;
+    height: 350px;
+    
 }
 
 #header-ctr {
@@ -29,11 +33,14 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 10px 90px 0 90px;
+
 }
 
 #top-header {
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 
 #logo-ctr {
@@ -49,7 +56,7 @@ header {
     display: flex;
     gap: 10px;
     margin-left: auto;
-    margin-right: 30px;
+    margin-right: 80px;
 }
 
 a img {
@@ -63,10 +70,14 @@ a img {
     padding: 0 15px;
 }
 
+#bottom-left-header {
+    padding-top: 30px;
+}
 #bottom-left-header h4 {
     font-weight: 700;
     color: var(--eggshell);
     padding-left: 30px;
+    
 }
 
 #job-title {
@@ -83,11 +94,18 @@ a img {
     font-style: italic;
 }
 
+#btn-ctr {
+    display: flex;
+    width: fit-content;
+    margin-left: 50px;
+
+}
+
 #contact-btn, #portfolio-btn {
     border-radius: 20px;
     padding: 7px 10px;
     font-weight: 600;
-    margin: 25px 12px 25px 30px;
+    margin: 20px 20px 20px 0;
 }
 
 #contact-btn {
@@ -102,12 +120,11 @@ a img {
     background-color: rgba(255, 255, 255, 0.2);
     color: var(--eggshell);
     border: 1px solid var(--eggshell);
-    padding: 5px 15px;
-    margin-top: 25px;
+    
     font-weight: 700;
     margin-left: 0;
 }
 
 #profile-pic {
-    width: 190px;
+    width: 240px;
 }
