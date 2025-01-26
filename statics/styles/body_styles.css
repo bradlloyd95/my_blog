@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--prussian-blue);
+    align-items: center;
+}
+html{
+    background-color: var(--eggshell);
+    
+}
+main {
+    width: 100vw;
+    background-color: var(--eggshell);
+}
+.carousel-ctr {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: none;
+    background-color: var(--prussian-blue);
+    border-radius: 10px;
+    color: var(--eggshell);
+}
+.carousel-ctr h2 {
+    border-bottom: 2px solid var(--eggshell);
+    width: 100%;
+    text-align: center;
+    padding-top: 10px
+}
+
+.carousel-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content:space-around; /* Ensure left alignment */
+    gap: 15px;
+    background-color: var(--prussian-blue);  
+    overflow-x: auto;
+    padding: 10px 20px; 
+    border-radius: 10px;
+    box-sizing: border-box; /* Ensure padding doesn't add extra width */
+}
+
+.carousel_item { 
+    width: 25%;
+    max-width: 100px;
+    min-width: 80px;
+    border: 3px solid var(--eggshell);
+    border-radius: 10px;
+    padding: 5px;
+    transition: transform 0.3s ease-in-out;    
+    box-sizing: border-box; /* Ensure padding and borders are included in width */
+}
+
+.carousel_item:hover {
+    transform: scale(1.15);
+    cursor: pointer; /* Changes cursor to pointer */    
+}
+
+
+.carousel_item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Ensures the image scales proportionally */
+}
+
+
+#skills-ctr {
+    display: none;
+    width: 100vw;
+    background-color: var(--prussian-blue);
+    color: var(--eggshell);
+    
+    padding: 10px 30px;
+    display: none;
+    flex-direction: column;
+    
+    align-items: center;
+    border-radius: 0 0 10px 10px
+}
+
+#skill-card {
+    border: 2px solid var(--eggshell);
+    border-radius: 10px;
+    width: 80%;
+    height: 300px;
+}

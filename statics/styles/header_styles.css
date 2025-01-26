@@ -14,10 +14,7 @@
     --silver-lake-blue: #748cabff;
     --eggshell: #f0ebd8ff;
 }
-body {
-    display: flex;
-    justify-content: center;
-}
+
 header {
     margin: 0;
     background: url('../images/background.avif') center/cover no-repeat fixed;
